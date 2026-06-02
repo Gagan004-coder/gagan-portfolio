@@ -398,8 +398,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const el = document.getElementById(linkInfo.id);
         if (el) {
             el.addEventListener('click', (e) => {
-                e.preventDefault();
-                showToast(`Credential for '${linkInfo.name}' is verified under GCP/Azure directory.`, 'success');
+                showToast(`Opening verified '${linkInfo.name}'...`, 'success');
             });
         }
     });

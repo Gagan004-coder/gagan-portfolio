@@ -184,10 +184,44 @@ document.addEventListener('DOMContentLoaded', () => {
     const gaganResumeData = {
         bio: `Gagan - Computer Science Student (9.01 CGPA)\nLocation: Kolar, Karnataka, India\nEmail: gag903536@gmail.com | Phone: +91 9035362292\nLooking for: Jan-Jul 2027 Apprenticeship`,
         skills: `DATA ENGINEERING & DB:\n  - SQL, MySQL Query Optimization, ETL Pipelines\n  - Data Warehousing, exposure to PySpark & Databricks\n\nCLOUD PLATFORMS:\n  - Microsoft Azure (AI/ML Deployment, Fundamentals)\n  - GCP (Cloud Run, Pub/Sub, Cloud Modernization)\n\nDEVOPS & MONITORING:\n  - Docker, Kubernetes, Unix/Shell Scripting\n  - Prometheus, Grafana, AWS CloudWatch, CI/CD\n\nLANGUAGES & ANALYTICS:\n  - Python (Primary), Java, C, C++, JavaScript\n  - Generative AI, NLP, Predictive Modeling, Power BI`,
-        projects: `1. SMART ICU: IoT Data Pipeline & Risk Prediction System (2025-2026)\n   - Real-time physiological streams ingestion using IoT sensors.\n   - Low-latency emergency alerting and Azure/GCP cloud storage.\n   - Predictive AI warning scores 12-24 hours in advance.\n\n2. SELF-HEALING CONTAINERIZED INFRASTRUCTURE (2026)\n   - Resilient multi-service architecture using Docker.\n   - System health metrics logging & Grafana/Prometheus dashboard.\n   - Automated SRE health checks and container restart scripts.\n\n3. AIRLINE DATA MANAGEMENT SYSTEM (2024)\n   - Optimized relational MySQL schemas & indices.\n   - Custom Java GUI interface for airline booking administrative tasks.`,
+        projects: `1. SMART ICU: IoT Data Pipeline & Risk Prediction System (2025-2026)
+   - Real-time physiological streams ingestion using IoT sensors.
+   - Low-latency emergency alerting and Azure/GCP cloud storage.
+   - Predictive AI warning scores 12-24 hours in advance.
+
+2. SELF-HEALING CONTAINERIZED INFRASTRUCTURE (2026)
+   - Resilient multi-service architecture using Docker.
+   - System health metrics logging & Grafana/Prometheus dashboard.
+   - Automated SRE health checks and container restart scripts.
+   - GitHub Repo: github.com/Gagan004-coder/self-healing-devops
+
+3. AIRLINE DATA MANAGEMENT SYSTEM (2024)
+   - Optimized relational MySQL schemas & indices.
+   - Custom Java GUI interface for airline booking administrative tasks.
+   - GitHub Repo: github.com/Gagan004-coder/air-line-management
+
+4. AUTOMATED CLOUD SECURITY & COST GOVERNANCE (2025-2026)
+   - Formulated automated cloud compliance policies to audit IAM users and storage volumes.
+   - Interactive status dashboards representing security health scores and cost suggestions.
+   - GitHub Repo: github.com/Gagan004-coder/AUTOMATED-CLOUD-SECURITY-AND-COST-GOVERNANCE
+
+5. SIGNBRIDGE (2025)
+   - Native Android application using Kotlin for assistive communication.
+   - Real-time gesture mapping flow and text-to-speech API rendering.
+   - GitHub Repo: github.com/Gagan004-coder/SignBridge
+
+6. VIRTUAL HERBAL GARDEN (2024-2025)
+   - Interactive digital catalog for plant species and medicinal values.
+   - Integrated rich visual layouts, search filters, and smooth animations.
+   - GitHub Repo: github.com/Gagan004-coder/VIRTUAL-HERBAL-GARDEN
+
+7. DISCOVER AUSTRIA (2024)
+   - Multi-page responsive web portal built with semantic HTML5 and CSS3.
+   - Implemented dynamic user interface elements, transitions, and hover effects.
+   - GitHub Repo: github.com/Gagan004-coder/WEB-PROJECT`,
         experience: `AI & Azure Cloud Virtual Intern (May 2025 - June 2025)\nEdunet Foundation (Microsoft & AICTE Partnered)\n- Developed and deployed machine learning pipelines on Azure Cloud.\n- Solidified understanding of Neural Networks, GenAI, and unstructured data handling.`,
         certifications: `- Google Career Launchpad Certification\n- Google Cloud: Arcade Facilitator Program (Data Cloud, Cloud Security, Infra)\n- Infosys Springboard: Python Fundamentals & Front-End Development`,
-        contact: `Email: gag903536@gmail.com\nPhone: +91 9035362292\nGitHub: github.com/gagan\nLinkedIn: linkedin.com/in/gagan`
+        contact: `Email: gag903536@gmail.com\nPhone: +91 9035362292\nGitHub: github.com/Gagan004-coder\nLinkedIn: linkedin.com/in/gagan`
     };
 
     if (terminalInput) {

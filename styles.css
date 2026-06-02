@@ -1082,6 +1082,34 @@ ul {
     border-radius: 4px;
 }
 
+.project-actions {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent-cyan);
+    transition: var(--transition-smooth);
+}
+
+.project-github-link:hover {
+    color: var(--text-primary);
+    transform: translateY(-1px);
+}
+
+.project-github-link .git-icon {
+    width: 16px;
+    height: 16px;
+}
+
 /* ----------------------------------------------------------------
    EXPERIENCE SECTION (TIMELINE)
 ------------------------------------------------------------------- */
